@@ -1,10 +1,22 @@
 # Volatility Forecasting & Risk Analysis System
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Domain](https://img.shields.io/badge/Domain-Quant%20Finance-purple)
+
 ## Overview
 
 This project builds an end-to-end quantitative finance pipeline to model market volatility, estimate financial risk, and evaluate trading strategies using real-world market data (NIFTY 50).
 
 It integrates statistical models, deep learning, and risk metrics to simulate realistic financial behavior and decision-making.
+
+---
+
+## Dataset
+
+- Source: NIFTY 50 Index
+- Frequency: Daily data
+- Time Period: 2015–2025
 
 ---
 
@@ -15,6 +27,17 @@ It integrates statistical models, deep learning, and risk metrics to simulate re
 * Backtest volatility-based trading strategies
 * Analyze financial behavior such as volatility clustering and tail risk
 
+
+---
+
+## Key Results
+
+- Hybrid strategy achieved better risk-adjusted performance than individual models
+- Maximum drawdown reduced compared to market benchmark
+- GARCH successfully captured volatility clustering
+- LSTM achieved lower RMSE but showed higher instability
+- VaR underestimates extreme tail risk, while CVaR provides a more realistic measure of potential losses during market stress
+
 ---
 
 ## Project Workflow
@@ -23,6 +46,31 @@ Data → Returns → Volatility → Models → Risk (VaR/CVaR) → Backtesting �
 
 ---
 
+## Visual Results
+
+### Strategy Performance
+
+![Strategy Comparison](assets/strategy.png)
+![Transaction Cost Impact](assets/transaction_cost.png)
+
+### Drawdown Analysis
+
+![Drawdown](assets/drawdown.png)
+
+### VaR & CVaR Analysis
+
+![VaR](assets/var.png)
+![VaR Breaches](assets/var_breaches.png)
+![CVaR](assets/cvar.png)
+
+### Model Performance
+
+![LSTM Prediction](assets/lstm_pred.png)
+![Training Loss](assets/lstm_loss.png)
+![GARCH vs Rolling](assets/garch_vs_rolling.png)
+![ARIMA](assets/arima.png)
+
+---
 ## Models Used
 
 ### ARIMA (Baseline Model)
@@ -141,7 +189,8 @@ Install dependencies:
 pip install -r requirements.txt
 
 Run notebooks in sequence from the `notebooks/` folder.
-
+ 
+ 
 ---
 
 ## Author
