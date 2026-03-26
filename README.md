@@ -191,8 +191,3 @@ pip install -r requirements.txt
 Run notebooks in sequence from the `notebooks/` folder.
  
  
----
-
-## Author
-
-Divyansh Singh
