@@ -152,7 +152,7 @@ Position ∝ Target Volatility / Forecasted Volatility
 - Higher Sharpe ratio → better **risk-adjusted efficiency**
 - Stable across volatility regimes  
 
-👉 Strategy behaves like a **risk-managed portfolio allocator**, not a speculative model
+Strategy behaves like a **risk-managed portfolio allocator**, not a speculative model
 
 ---
 
