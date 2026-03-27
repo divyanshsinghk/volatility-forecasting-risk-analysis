@@ -192,8 +192,6 @@ Strategy behaves like a **risk-managed portfolio allocator**, not a speculative 
 pip install -r requirements.txt
 ---
 
-## How to Run
-
 Install dependencies:
 
 pip install -r requirements.txt
