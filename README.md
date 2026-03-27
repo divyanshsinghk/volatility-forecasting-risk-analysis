@@ -1,11 +1,5 @@
 # Volatility Forecasting & Risk-Aware Trading System
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![Domain](https://img.shields.io/badge/Domain-Quant%20Finance-purple)
-
----
-
 ## Overview
 
 This project builds an end-to-end **quantitative finance pipeline** for modeling market volatility, estimating tail risk, and designing a **risk-managed trading strategy** using NIFTY 50 data.
